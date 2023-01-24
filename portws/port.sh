@@ -4,7 +4,7 @@
 # ==========================================
 
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/Acelrrh/Mantap/main/websocket"
+akbarvpn="raw.githubusercontent.com/habibilah1701/tes/main/websocket"
 
 # Getting Proxy Template
 wget -q -O /usr/local/bin/ws-nontls https://${akbarvpn}/websocket.py
