@@ -13,7 +13,7 @@ chmod +x /usr/local/bin/ws-nontls
 # Installing Service
 cat > /etc/systemd/system/ws-nontls.service << END
 [Unit]
-Description=Python Proxy Mod By Akbar Maulana
+Description=Python Proxy habibilah
 Documentation=https://nekopi.care
 After=network.target nss-lookup.target
 
@@ -23,7 +23,7 @@ User=root
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
-ExecStart=/usr/bin/python -O /usr/local/bin/ws-nontls 8880
+ExecStart=/usr/bin/python -O /usr/local/bin/ws-nontls 80
 Restart=on-failure
 
 [Install]
