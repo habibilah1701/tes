@@ -162,3 +162,7 @@ apt-get -y --purge remove apache2*;
 apt-get -y --purge remove bind9*;
 apt-get -y remove sendmail*
 apt autoremove -y
+
+#install squid3
+cd
+apt -y install squid3
